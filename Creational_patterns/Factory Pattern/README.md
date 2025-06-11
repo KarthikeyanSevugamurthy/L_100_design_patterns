@@ -40,7 +40,7 @@ com.coffeeshop/
 ## Expected Output
 
 When you run the demo, you'll see output like:
-
+```
  Welcome to Java Coffee Shop! 
 ==================================
 
@@ -79,7 +79,7 @@ When you run the demo, you'll see output like:
 [... more orders ...]
 
 Daily Summary for Karthi
-```
+
 ============================
 Total Orders: 4
 Total Sales: Rs215.00
