@@ -20,14 +20,10 @@ This project demonstrates the Singleton design pattern through a practical examp
 - **Memory Efficiency**: Only one configuration object in memory
 - **Consistency**: Changes made in one screen are reflected everywhere
 - **Global Access**: Easy access from any part of the application
-```
-
----
 
 ## Expected Output
 
 When you run the demo, you'll see output like:
-
 ```
  Mobile App Configuration Demo
 ================================
