@@ -6,7 +6,7 @@ package com.coffeeshop.model;
 public class Espresso implements Coffee {
     
     private String name = "Espresso";
-    private double price = 2.50;
+    private double price = 50.0;
     private int preparationTime = 2;
     
     @Override

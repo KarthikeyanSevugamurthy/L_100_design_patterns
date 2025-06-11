@@ -32,7 +32,7 @@ public class CashierService {
         if (coffee != null) {
             totalOrders++;
             totalSales += coffee.getPrice();
-            System.out.println("Price: $" + coffee.getPrice());
+            System.out.println("Price: Rs" + coffee.getPrice());
             System.out.println("Preparation time: " + coffee.getPreparationTime() + " minutes");
             System.out.println("Order sent to barista...");
             System.out.println();
@@ -55,7 +55,7 @@ public class CashierService {
         for (String coffeeType : availableCoffees) {
             Coffee sampleCoffee = CoffeeFactory.createCoffee(coffeeType);
             if (sampleCoffee != null) {
-                System.out.println( coffeeType + " - $" + sampleCoffee.getPrice());
+                System.out.println( coffeeType + " - Rs" + sampleCoffee.getPrice());
             }
         }
         System.out.println("-------------------");
@@ -67,7 +67,7 @@ public class CashierService {
         System.out.println("Daily Summary for " + cashierName);
         System.out.println("============================");
         System.out.println("Total Orders: " + totalOrders);
-        System.out.println("Total Sales: $" + String.format("%.2f", totalSales));
+        System.out.println("Total Sales: Rs" + String.format("%.2f", totalSales));
         System.out.println("============================");
         System.out.println();
     }

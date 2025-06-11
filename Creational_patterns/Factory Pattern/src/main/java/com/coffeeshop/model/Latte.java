@@ -4,7 +4,7 @@ package com.coffeeshop.model;
 public class Latte implements Coffee {
     
     private String name = "Latte";
-    private double price = 4.50;
+    private double price = 45.0;
     private int preparationTime = 5;
     
     @Override

@@ -50,11 +50,11 @@ Welcome to Java Coffee Shop!
  Our Coffee Menu:
 -------------------
  Coffee Factory: Creating Espresso...
- Espresso - $2.5
+ Espresso - Rs60
  Coffee Factory: Creating Cappuccino...
- Cappuccino - $4.0
+ Cappuccino - Rs50
  Coffee Factory: Creating Latte...
- Latte - $4.5
+ Latte - Rs45
 -------------------
 
  Coffee Shop Opens - Morning Rush!
@@ -65,7 +65,7 @@ Welcome to Java Coffee Shop!
  Taking order for: Espresso
 
  Coffee Factory: Creating Espresso...
- Price: $2.5
+ Price: Rs60
  Preparation time: 2 minutes
  Order sent to barista...
 
@@ -84,7 +84,7 @@ Welcome to Java Coffee Shop!
 Daily Summary for Karthi
 ============================
 Total Orders: 4
-Total Sales: $15.00
+Total Sales: Rs215.00
 ============================
 ```
  FACTORY PATTERN BENEFITS DEMONSTRATION
