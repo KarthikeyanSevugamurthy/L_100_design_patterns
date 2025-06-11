@@ -35,26 +35,23 @@ com.coffeeshop/
 2. Add case in `CoffeeFactory.createCoffee()` method
 3. Update `getAvailableCoffeeTypes()` method
 4. No changes needed in existing client code!
-```
 
----
 
 ## Expected Output
 
 When you run the demo, you'll see output like:
 
-```
-Welcome to Java Coffee Shop! 
+ Welcome to Java Coffee Shop! 
 ==================================
 
  Our Coffee Menu:
 -------------------
- Coffee Factory: Creating Espresso...
- Espresso - Rs60
- Coffee Factory: Creating Cappuccino...
- Cappuccino - Rs50
- Coffee Factory: Creating Latte...
- Latte - Rs45
+ - Coffee Factory: Creating Espresso...
+ - Espresso - Rs60
+ - Coffee Factory: Creating Cappuccino...
+ - Cappuccino - Rs50
+ - Coffee Factory: Creating Latte...
+ - Latte - Rs45
 -------------------
 
  Coffee Shop Opens - Morning Rush!
@@ -82,11 +79,13 @@ Welcome to Java Coffee Shop!
 [... more orders ...]
 
 Daily Summary for Karthi
+```
 ============================
 Total Orders: 4
 Total Sales: Rs215.00
 ============================
 ```
+
  FACTORY PATTERN BENEFITS DEMONSTRATION
 ==========================================
 
