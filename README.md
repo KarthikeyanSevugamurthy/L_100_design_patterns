@@ -56,7 +56,7 @@ Feel free to copy, customize, and integrate any pattern into your own projects o
 
 ## 🎓 Who Is This For?
 
-- **Beginners** learning Java or OOP
+- **Beginners** learning Java or OOPs
 - **Interview preparation**
 - **Developers** refining architectural design skills
 
