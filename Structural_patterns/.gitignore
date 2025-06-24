@@ -1,0 +1,34 @@
+# Ignore all class files
+*.class
+
+# Ignore all JAR files
+*.jar
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled output folders
+/bin/
+/build/
+/out/
+/target/
+
+# Ignore VS Code project settings
+.vscode/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Mac and system files
+.DS_Store
+Thumbs.db
+
+# Ignore lib folder if you download JARs but don't want to commit them
+# (Uncomment only if you're managing JARs elsewhere like Maven/Gradle)
+# /lib/
+
