@@ -17,7 +17,7 @@ It bridges incompatible interfaces by adapting an existing `ExcelReader` to a ta
 ## 🏗️ Project Structure
 
 ```
-
+```
 src/
 ├── adapter/
 │   └── ExcelToJsonAdapter.java       # The adapter class implementing JSON conversion
@@ -28,10 +28,10 @@ src/
 ├── demo.java                         # The client/main class to test the adapter
 └── lib/
 └── json-20231013.jar             # External library (only needed for org.json version)
+```
 
-````
 
----
+----
 
 ## ▶️ How to Run
 
@@ -40,7 +40,7 @@ src/
 2. Compile:
    ```sh
    javac -cp ".;lib/json-20231013.jar" adapter/*.java excel/*.java json/*.java demo.java
-````
+
 
 3. Run:
 
@@ -48,7 +48,7 @@ src/
    java -cp ".;lib/json-20231013.jar" demo
    ```
 
----
+----
 
 ### ❗ Option 2: Pure Java version (no JSON library)
 
@@ -92,20 +92,5 @@ src/
 ---
 
 
----
 
-## 📄 License
 
-This project is for educational/demo purposes and is open for use or modification.
-
-```
-
----
-
-### ✅ Tips
-
-- Save the file as `README.md` in the root directory of your project (`Adapter_pattern`).
-- If using GitHub, this will automatically be shown on your repository home page.
-
-Let me know if you’d like to add screenshots, UML diagrams, or replace the JSON library version with a plain Java version.
-```
