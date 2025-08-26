@@ -1,0 +1,3 @@
+interface TrafficLightState {
+    void showLight();
+}
